@@ -5,35 +5,54 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
 </head>
 <body>
+
 	<div class="ui container">
-		<button class="ui   primary  button"> click me</button>
-		<br>
-		<br>
-		<button class="ui  fade animated button">
-			<span class="visible content"> Next</span>
-			<span class="hidden content"><i class="right arrow icon"></i></span>
-		</button>
-
-		<br>
-		<br>
-
-		<button class="ui  vertical animated button">
-			<span class="visible content"> Next</span>
-			<span class="hidden content"><i class="right arrow icon"></i></span>
-		</button>
-
-		<br>
-		<br>
-		<div class="ui buttons">
-			<button class="ui basic red button"><i class="pause icon"></i></button>
-			<button class="ui basic red button"><i class="play icon"></i></button>
-			<button class="ui basic red button"><i class="stop icon"></i></button>
-			
-
-			<br>
-			<br>
-			<button class=" tiny ui  loading button "> loading</button>
+<!-- start of creating the grid -->
+		<div class="ui grid">
+			<div class=" four wide column"><button class="ui fluid button"></button></div>
+			<div class=" eight wide column"><button class="ui fluid  button"></button></div>
+			<div class=" four wide column"><button class="ui fluid  button"></button></div>
 		</div>
+<!-- end of creating the grid -->
+
+<!-- start of grids with gutter -->
+			<div class="ui relaxed grid">
+			<div class=" four wide column"><button class="ui fluid button"></button></div>
+			<div class=" eight wide column"><button class="ui fluid  button"></button></div>
+			<div class=" four wide column"><button class="ui fluid  button"></button></div>
+
+			</div>
+			
+<!-- end of grid with gutter -->
+
+<!-- start of creating your own grid -->
+
+	<div class="ui  grid">
+		<div class=" four column row">
+		<div class=" column"><button class="ui fluid button"></button></div>
+		<div class=" column"><button class="ui fluid  button"></button></div>
+		<div class=" column"><button class="ui fluid button"></button></div>
+		<div class=" column"><button class="ui fluid  button"></button></div>
+
+		</div>
+		<div class="two column row">
+		<div class=" column"><button class="ui fluid button"></button></div>
+		<div class=" column"><button class="ui fluid  button"></button></div>
+		</div>
+
+		<div class="eight column row">
+		<div class=" column"><button class="ui fluid button"></button></div>
+		<div class=" column"><button class="ui fluid  button"></button></div>
+		<div class=" column"><button class="ui fluid button"></button></div>
+		<div class=" column"><button class="ui fluid  button"></button></div>
+		<div class=" column"><button class="ui fluid button"></button></div>
+		<div class=" column"><button class="ui fluid  button"></button></div>
+		<div class=" column"><button class="ui fluid button"></button></div>
+		<div class=" column"><button class="ui fluid  button"></button></div>
+		</div>
+	</div>
+<!-- end of creating your own grid -->
+
 	</div>
 </body>
 </html>
